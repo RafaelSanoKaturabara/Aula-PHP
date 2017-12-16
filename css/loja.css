@@ -1,0 +1,39 @@
+body {
+    background: #E6E8FA;
+}
+.produtos,#formLogin, #formProduto {
+	background-color: white;
+	padding: 10px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+input {
+    max-height: 100%;	
+}
+#cadastroProduto, #login, #nomeLogado, #compra, #opMenuCadProdutos{
+	display: none;
+}
+.form-control::-moz-placeholder {
+  color: #999;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+footer {
+  background-color: lightgray;
+  font-size: 12px !important;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+}
+.btnAdCarrinho{
+   
+}
